@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'leaguespartan';
+    src: url(../fonts/leaguespartan-variablefont_wght-webfont.woff);
+}
+
+@font-face {
+    font-family: 'tenorsans';
+    src: url(../fonts/tenorsans-regular-webfont.woff);
+}
+
+h1{
+    color: black;
+    hyphens: auto;
+    margin: 6px;
+    font-family: 'anton-regular', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80px;
+    font-weight:bolder;
+    text-align: left;
+    padding:2%
+}
+
+h2{
+    color: #302727;
+    hyphens: auto;
+    margin: 6px;
+    font-family: 'anton-regular', Verdana, Geneva, Tahoma, sans-serif;
+    font-size:25px;
+    font-weight: bolder;
+    text-align: left;
+    padding:2%  
+}
+
+h3{
+    color: #302727;
+    hyphens: auto;
+    margin: 6px;
+    font-family: 'anton-regular', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    font-weight: bolder;
+    text-align: left;
+    padding:2%
+}
+
+h4{
+    color: black;
+    hyphens: auto;
+    margin: 6px;
+    font-family: 'leaguespartan', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 21px;
+    font-weight: bolder;
+    text-align: left;
+    padding:2%
+}
+
+
+p{
+    color: black;
+    hyphens: auto;
+    margin: 6px;
+    font-family: 'tenorsans', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: left;
+    padding:2%
+}
+
+.a_nav{
+    color: white;
+    border-radius: 2em;
+    background-color: black;
+    padding: 13px;
+    margin: 16px;
+    font-family: 'tenorsans', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    width: 130px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+@media only screen and (max-width: 570px) {
+    .a.a_nav {
+        font-size: 10px; 
+        width: 80px;
+        height: 15px;
+        text-align:justify;
+    }
+}
+
+.a_nav_uden{
+    font-family: 'tenorsans', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    width: 130px;
+    height: 20px;
+    text-align: center;
+    color: black;
+    padding: 30px;
+    margin: 16px;
+    text-decoration: none;
+}
+@media only screen and (max-width: 570px) {
+    .a.a_nav_uden {
+        font-size: 10px; 
+        width: 80px;
+        height: 15px;
+        text-align:justify;
+    }
+}
+
+.center_knap{
+    color: white;
+    border-radius: 2em;
+    background-color: black;
+    padding: 15px;
+    margin: 55px;
+    font-family: 'tenorsans', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    width: 130px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+@media only screen and (min-width: 500px) {
+    .a.center_knap {
+        font-size: 10px; 
+        width: 80px;
+        height: 15px;
+        text-align:justify;
+    }
+}
+
+body {
+    background-color:#ECE6DB;
+    margin: 0.5% 0.5% 0.5% 0.5%;
+    font-family: 'tenorsans', Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    font-weight: bolder;
+    text-align: left;
+}
+
+.grid_1-1-1{
+    background-color: #ECE6DB;
+}
+
+.right_grid{
+    background-color:white;
+}
+
+.right_body_grid{
+    background-color: #ECE6DB;
+}
+
+.cv_felter{
+    background-color: #ECE6DB;
+    color:#302727;
+}
+
+.cv_kompetencer{
+    background-color: #302727;
+    color: white;
+}
+
+footer{
+    background-color: #ECE6DB;
+    margin: 2% 2% 2% 2%;
+}

@@ -1,0 +1,245 @@
+@media (min-width: 600px) {
+    main{
+    /* margin-left: 15%;
+    margin-right: 15%; */
+    padding: 0 1rem;
+    }
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    }
+          
+.menu li {
+    margin-right: 20px;
+    }
+          
+.menu li:last-child {
+    margin-right: 0;
+    }
+          
+.menu a {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+    text-align: center;
+    }
+          
+.menu a:hover {
+    color: #302727;
+        }
+          
+.burger {
+    width: 30px;
+    height: 20px;
+    cursor: pointer;
+    }
+          
+.burger .line {
+    width: 100%;
+    height: 2px;
+    background-color: #333;
+    margin-bottom: 5px;
+    transition: 0.2s linear;
+    }
+.burger {
+    display: none;
+        }
+@media screen and (max-width: 800px) {
+    .menu {
+    display: none;
+    }
+.burger {
+    display: block;
+    }
+.burger.active .line:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+    transition: 0.2s linear;
+    }
+          
+.burger.active .line:nth-child(2) {
+    opacity: 0;
+    transition: 0.15s linear;
+    }
+          
+.burger.active .line:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -5px);
+    transition: 0.2s linear;
+    }
+          
+nav.active .menu {
+    display: block;
+    background-color:#ECE6DB;
+    position:fixed;
+    top: 120px;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    }
+          
+nav.active .menu li {
+    margin: 10px 20px;
+        }
+          
+nav.active .menu a {
+    font-size: 16px;
+        }
+    }
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items:end;
+    padding: 20px;
+    background-color:#ECE6DB;
+    }
+          
+nav {
+    display: flex;
+    align-items: center;
+    }
+          
+              
+.grid_1-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1px;
+    padding: 20px;
+    }
+
+@media (max-width: 800px) {
+    .grid_1-1{
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 1em;
+    }
+}
+
+.left-grid{
+    padding: 15px;
+    margin: 5px;
+    grid-column: 1/2;
+    z-index: 1;
+    grid-row: 1/2;
+    display:block;
+    background-color: white;
+    margin-bottom: 15px;
+    }
+  
+  
+.right-grid{
+    padding: 15px;
+    margin: 5px;
+    text-align: right;
+    grid-column: 1/2;
+    z-index: 10;
+    grid-row: 1/2;
+    display: block;
+    margin-bottom: 15px;
+    }
+
+.grid_1-1-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1em;
+    }
+
+@media (max-width: 800px) {
+    .grid_1-1-1{
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 1em;
+    }
+}
+
+.grid_1-1-1-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 1em;
+    }
+
+@media (max-width: 800px) {
+    .grid_1-1-1-1{
+        display: grid;
+        grid-template-columns: 1fr;
+        column-gap: 1em;
+    }
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+@media (max-width: 800px) {
+    .img_tema3{
+        max-width: 80%;
+        height: auto;
+        display: block;
+        margin: 0 auto;
+}}
+
+.img_logo {
+    max-width: 85%;
+    height: auto;
+    display: block;
+    margin: -30px;
+    padding: 10px;
+  }
+     
+ .footer1{
+    display: grid;
+    grid-row: 4/4;
+    grid-column: 1/4;
+    text-decoration: none;
+    }
+
+.footer2{
+    display: grid;
+    grid-row: 4/3;
+    grid-column: 2/4;
+    text-decoration: none;
+    }
+
+.footer3{
+    display: grid;
+    grid-row: 4/2;
+    grid-column: 3/4;
+    text-decoration: none;
+    }
+
+.footer4{
+    display: grid;
+    grid-row: 4/1;
+    grid-column: 4/4;
+    text-decoration: none;}
+
+.abstrakt_figur {
+        margin: 100px;
+        margin-top: 80px;
+        max-width: 100%;
+        height: auto;
+        display: block;
+        animation: rotateAnimation 15s linear infinite; /* 5s varighed, lineær timing, uendelig gentagelse */
+        }
+
+@keyframes rotateAnimation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@media only screen and (max-width: 600px) {
+    .abstrakt_figur{
+        font-size: 14px; /* Mindre tekststørrelse for mindre skærme */
+    }
+}
+
